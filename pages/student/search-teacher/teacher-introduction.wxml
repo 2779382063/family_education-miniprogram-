@@ -1,0 +1,137 @@
+<view class='teach'bindtap='loadDetail'id='{{teach.id}}'>
+<view class="item1">
+  <view class="head1">
+    <view class="item-left flex-wrp-row">
+      <image src="/image/touxiang/u71.png" style="width:100px;height:100px;"></image>
+      <view class="txt">
+        <view class="title1">安晨 </view>
+        <view class="sta1">课时费：100元/小时</view>
+        <view class="sta1">高中物理，化学</view>
+        <view class="item-bottom"> 
+        <view class='content'>
+          <image src="/image/zhujiemian/u82.png" style="width:20px;height:20px;"></image>
+          <image src="/image/zhujiemian/u82.png" style="width:20px;height:20px;"></image>
+          <image src="/image/zhujiemian/u82.png" style="width:20px;height:20px;"></image>
+          <image src="/image/zhujiemian/u86.png" style="width:20px;height:20px;"></image>
+          <image src="/image/zhujiemian/u86.png" style="width:20px;height:20px;"></image>
+        </view>
+          <!--view class='content'>
+          <view>
+          <view wx:for="{{stars}}" wx:key="" style='background:url("{{item.flag==1?item.bgImg:item.bgfImg}}") no-repeat top; background-size:100%;' data-index="{{index}}" bindtap='score'></view>
+          </view>
+          </view-->
+        </view>
+      </view>
+    </view>
+    <view class="item-right flex-wrp-row" >
+    <image src="/image/zhujiemian/u70.png" style="width:15px;height:20px;"class='icon-right'             mode='aspectFit'></image>
+    </view>
+  </view>
+</view>
+ 
+    
+     <!--view class="icon1">
+     <view><image src="../../images/icon/xiao.jpg" style="width:23px;height:23px;"></image></view>
+      <view><image src="../../images/icon/ku.jpg" style="width:23px;height:23px;"></image></view>
+       <view><image src="../../images/icon/pinglun.jpg" style="width:23px;height:23px;"></image></view>
+        <view class="last"><image src="../../images/icon/fenxiang.jpg" style="width:23px;height:23px;"></image></view>
+  </view-->
+
+<view class="line1"></view>
+
+<view class="item1">
+  <view class="head1">
+    <view class="item-left flex-wrp-row">
+      <image src="/image/touxiang/u80.png" style="width:100px;height:100px;"></image>
+      <view class="txt">
+        <view class="title1">汤总 </view>
+        <view class="sta1">课时费：120元/小时</view>
+        <view class="sta1">高中数学</view>
+        <view class="item-bottom"> 
+        <view class='content'>
+          <image src="/image/zhujiemian/u82.png" style="width:20px;height:20px;"></image>
+          <image src="/image/zhujiemian/u82.png" style="width:20px;height:20px;"></image>
+          <image src="/image/zhujiemian/u86.png" style="width:20px;height:20px;"></image>
+          <image src="/image/zhujiemian/u86.png" style="width:20px;height:20px;"></image>
+          <image src="/image/zhujiemian/u86.png" style="width:20px;height:20px;"></image>
+        </view>
+          <!--view class='content'>
+          <view>
+          <view wx:for="{{stars}}" wx:key="" style='background:url("{{item.flag==1?item.bgImg:item.bgfImg}}") no-repeat top; background-size:100%;' data-index="{{index}}" bindtap='score'></view>
+          </view>
+          </view-->
+        </view>
+      </view>
+    </view>
+    <view class="item-right flex-wrp-row" >
+    <image src="/image/zhujiemian/u70.png" style="width:15px;height:20px;"class='icon-right'             mode='aspectFit'></image>
+    </view>
+  </view>
+</view>
+
+<view class="line1"></view>
+
+<view class="item1">
+  <view class="head1">
+    <view class="item-left flex-wrp-row">
+      <image src="/image/touxiang/u94.png" style="width:100px;height:100px;"></image>
+      <view class="txt">
+        <view class="title1">聊星海 </view>
+        <view class="sta1">课时费：150元/小时</view>
+        <view class="sta1">高中英语，数学</view>
+        <view class="item-bottom"> 
+        <view class='content'>
+          <image src="/image/zhujiemian/u82.png" style="width:20px;height:20px;"></image>
+          <image src="/image/zhujiemian/u82.png" style="width:20px;height:20px;"></image>
+          <image src="/image/zhujiemian/u82.png" style="width:20px;height:20px;"></image>
+          <image src="/image/zhujiemian/u82.png" style="width:20px;height:20px;"></image>
+          <image src="/image/zhujiemian/u86.png" style="width:20px;height:20px;"></image>
+        </view>
+          <!--view class='content'>
+          <view>
+          <view wx:for="{{stars}}" wx:key="" style='background:url("{{item.flag==1?item.bgImg:item.bgfImg}}") no-repeat top; background-size:100%;' data-index="{{index}}" bindtap='score'></view>
+          </view>
+          </view-->
+        </view>
+      </view>
+    </view>
+    <view class="item-right flex-wrp-row" >
+    <image src="/image/zhujiemian/u70.png" style="width:15px;height:20px;"class='icon-right'             mode='aspectFit'></image>
+    </view>
+  </view>
+</view>
+
+<view class="line1"></view>
+
+<view class="item1">
+  <view class="head1">
+    <view class="item-left flex-wrp-row">
+      <image src="/image/touxiang/u108.png" style="width:100px;height:100px;"></image>
+      <view class="txt">
+        <view class="title1">杨一 </view>
+        <view class="sta1">课时费：100元/小时</view>
+        <view class="sta1">高中语文</view>
+        <view class="item-bottom"> 
+        <view class='content'>
+          <image src="/image/zhujiemian/u82.png" style="width:20px;height:20px;"></image>
+          <image src="/image/zhujiemian/u86.png" style="width:20px;height:20px;"></image>
+          <image src="/image/zhujiemian/u86.png" style="width:20px;height:20px;"></image>
+          <image src="/image/zhujiemian/u86.png" style="width:20px;height:20px;"></image>
+          <image src="/image/zhujiemian/u86.png" style="width:20px;height:20px;"></image>
+        </view>
+          <!--view class='content'>
+          <view>
+          <view wx:for="{{stars}}" wx:key="" style='background:url("{{item.flag==1?item.bgImg:item.bgfImg}}") no-repeat top; background-size:100%;' data-index="{{index}}" bindtap='score'></view>
+          </view>
+          </view-->
+        </view>
+      </view>
+    </view>
+    <view class="item-right flex-wrp-row" >
+    <image src="/image/zhujiemian/u70.png" style="width:15px;height:20px;"class='icon-right'             mode='aspectFit'></image>
+    </view>
+  </view>
+</view>
+
+<view class="line1"></view>
+</view>

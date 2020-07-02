@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/student/search-teacher/search-teacher",
+    "pages/me/me",
+    "pages/index/index",
+    "pages/teacher/teacher-identification/teacher-identification",
+
+    "pages/first/first",
+    "pages/phone/phone",
+    "pages/teacher/teacher-page/teacher-page",
+    "pages/find-password/find-password",
+    "pages/teacher/be-teacher/be-teacher",
+    "pages/service/service",
+    "pages/student/teacherDetail/teacherDetail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#D53E37",
+    "backgroundColor": "#f5f5f5",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/student/search-teacher/search-teacher",
+        "text": "找家教",
+        "iconPath": "image/search-0.jpg",
+        "selectedIconPath": "image/search-1.jpg"
+      },
+      {
+        "pagePath": "pages/teacher/be-teacher/be-teacher",
+        "text": "当家教",
+        "iconPath": "image/be-0.jpg",
+        "selectedIconPath": "image/be-1.jpg"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "image/Me-0.png",
+        "selectedIconPath": "image/Me-1.png"
+      }
+    ]
+  }
+}

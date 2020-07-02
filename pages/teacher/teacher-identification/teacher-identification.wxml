@@ -1,0 +1,100 @@
+<!--pages/teacher/teacher-identification/teacher-identification.wxml-->
+<!--page/userInfo_detal/userInfo_detal.wxml-->
+<view>
+
+  <form bindsubmit='sendUserInfo'>
+    <view style='background-color:white;'>
+      <!--view style='display:flex;align-items:center;justify-content:center;background-color:white;'>
+        <image src='{{user_Image}}' style='width:70px;height:70px;margin:30px;'/>
+      </view>
+
+      <view class='separateLine' /-->
+        <view class='section'>
+          <view class='section_left'>姓名</view>
+          <input class='section_right' name='nikename' maxlength='10' placeholder='请输入姓名'bindinput                 ="usenikename"value="{{usernikename}}"/>
+        </view>
+
+        <view class='separateLine'/>
+        <view class='section'>
+          <view class='section_left'>性别</view>
+          <radio-group class="radio-group" bindchange="radioChange">
+            <radio value='boy'font-size='13px'/>男
+            <radio value='girl'/>女
+          </radio-group>
+          <!--input class='section_right' name='gender' maxlength='16' placeholder='请输入性别' bindinput ="usegender"value="{{usergender}}"/-->
+        </view>
+
+        <view class='separateLine' />
+        <view class='section'>
+          <view class='section_left'>学校</view>
+          <input class='section_right' name='school' maxlength='16' placeholder='请输入学校'bindinput ="useschool"value="{{userschool}}"/>
+        </view>
+    
+</view>
+
+
+    <!--view class='separateLinelarge' />
+
+
+    <view style='background-color:white;'>
+      <view class='section'>
+        <!--view class='section_left' style='margin-right:20px;'>行业</view>
+
+        <!--view style='color:#CDCDCD;flex:1;'>添加您的行业</view>
+        <image mode='aspectFill' src='../../../common/image/forward.png' style='margin-right:20px;height:20px;width:20px;'/>
+        <!-- <icon type='info' size='20' style='margin-right:20px;'/> -->
+      <!--/view-->
+
+      <!--view class='separateLine' /-->
+
+      <!--view class='section'>
+        <view class='section_left'>年级</view>
+        <input class='section_right' name='grade' maxlength='16' placeholder='添加所在年级'bindinput ="usegrade"value="{{usergrade}}"/>
+      </view-->
+
+      <view class='separateLine' />
+
+      <view class='section'>
+        <view class='section_left'>专业</view>
+        <input class='section_right' name='profession' maxlength='16' placeholder='添加您的行业'bindinput ="useprofession"value="{{userprofession}}"/>
+      </view>
+
+      <view class='separateLine' />
+
+      <view class='section'>
+        <view class='section_left'>手机号</view>
+        <input class='section_right' name='phone' maxlength='16' placeholder='添加您的手机号'bindinput ="usephone"value="{{userphone}}"/>
+        
+      </view>
+      
+      <view class='separateLine' />
+    <view class='separateLinelarge' />
+
+
+    <view class='section_upload_liscence_notice'>
+    
+      <view style='font-size:12px;margin-left:15px;'>上传证件信息</view>
+    </view>
+
+    <view class='section_upload_liscence'>
+      <view wx:if="{{!hasDriverLiscence}}">
+        <image bindtap='chooseLiscencePicture' mode='aspectFill' src='{{defaultLiscencePictureUrl}}' style='width:120px;height:100px;margin-bottom:20px;margin-left:100px;'/>
+      </view>
+      <view wx:else>
+        <image bindtap='previewLiscencePicture' mode='aspectFill' src='{{defaultLiscencePictureUrl}}' style='width:120px;height:100px;margin-bottom:20px;margin-left:100px;'/>
+      </view>
+    </view>
+
+
+
+    <view style='background:transparent;display:flex;flex-direction:row;align-items:center;justify-content:center;'>
+      <button type='primary' loading='{{loading}}' style='flex:1;' form-type='submit'>{{submitState}}</button>
+    </view>
+    
+  </form>
+
+  
+
+</view>
+
+

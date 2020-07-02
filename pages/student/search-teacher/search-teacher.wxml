@@ -1,0 +1,171 @@
+<!--pages/student/search-teacher/search-teacher.wxml-->
+
+<view class="nav">
+  <view id="0" class="{{currentTab == 0?'select':'normal'}}" bindtap="switchNav">年级</view>
+  <!--view class="line">|</view-->
+  <view id="1" class="{{currentTab == 1?'select':'normal'}}" bindtap="switchNav">科目</view>
+  
+  <view id="2" class="{{currentTab == 2?'select':'normal'}}" bindtap="switchNav">时间</view>
+ 
+  <view id="3" class="{{currentTab == 3?'select':'normal'}}" bindtap="switchNav">其它</view>
+</view>
+
+
+
+  
+ 
+<swiper current="{{currentTab}}" style="height:{{winHeight}}px">
+  
+  <swiper-item>
+    <view class='swip'>
+      <radio-group class="radio-group" bindchange="radioChange">
+      <view class="nav1">
+        <view class="normal1">
+          <radio value='xiao1-2'font-size='1px'/>小学一二年级
+        </view>
+        <view class="normal1">
+          <radio value='zhon1'/>初中一年级
+        </view>
+        <view class="normal1">
+          <radio value='gao1'/>高中一年级
+        </view>
+      </view>
+      <view class='nav1'>
+        <view class="normal1">
+          <radio value='xiao3-4'/>小学三四年级
+        </view>
+        <view class="normal1">
+          <radio value='zhon2'/>初中二年级
+        </view>
+        <view class="normal1">
+          <radio value='gao2'/>高中二年级
+        </view>
+      </view>
+      <view class='nav1'>
+        <view class="normal1">
+          <radio value='xiao5-6'font-size='5px'/>小学五六年级
+        </view>
+        <view class="normal1">
+          <radio value='zhon3'/>初中三年级
+        </view>
+        <view class="normal1">
+          <radio value='gao3'/>高中三年级
+        </view>
+      </view>
+      </radio-group>
+    </view>
+  </swiper-item>
+
+
+  <swiper-item>
+    <view class='swip'>
+      <radio-group class="radio-group" bindchange="radioChange">
+      <view class="nav1">
+        <view class="normal1">
+          <radio value='yw'/>语文
+        </view>
+        <view class="normal1">
+          <radio value='wl'/>物理
+        </view>
+        <view class="normal1">
+          <radio value='zz'/>政治
+        </view>
+      </view>
+    <view class='nav1'>
+      <view class="normal1">
+        <radio value='sx'/>数学
+      </view>
+      <view class="normal1">
+        <radio value='hx'/>化学
+      </view>
+      <view class="normal1">
+        <radio value='ls'/>历史
+      </view>
+    </view>
+    <view class='nav1'>
+      <view class="normal1">
+        <radio value='yy'font-size='5px'/>英语
+      </view>
+      <view class="normal1">
+        <radio value='sw'/>生物
+      </view>
+      <view class="normal1">
+        <radio value='dl'/>地理
+      </view>
+    </view>
+   </radio-group>
+    </view>
+  </swiper-item>
+
+
+
+
+  <swiper-item>
+    <view class='swip'>
+      <radio-group class="radio-group1" bindchange="radioChange">
+        <view class="nav1">
+          <view class="normal1">
+            <radio value='yw'/>周一晚上
+          </view>
+          <view class="normal1">  
+            <radio value='wl'/>周二晚上
+          </view>
+          <view class="normal1">
+            <radio value='zz'/>周三晚上
+          </view>
+          <view class="normal1">
+            <radio value='sx'/>周四晚上
+          </view>
+        </view>
+        <view class="nav1">
+          <view class="normal1">
+            <radio value='sx'/>周五晚上
+          </view>
+          <view class="normal1">
+            <radio value='hx'/>周六晚上
+          </view>
+          <view class="normal1">
+            <radio value='ls'/>周日晚上
+          </view>
+          <view class="normal1">
+            <radio value='sw'/>周六上午
+          </view>
+        </view>
+        <view class="nav1">
+          <view class="normal1">
+            <radio value='yy'/>周六下午
+          </view>
+          <view class="normal1">
+            <radio value='sw'/>周日上午
+          </view>
+          <view class="normal1">
+            <radio value='dl'/>周日下午
+          </view>
+          <view class="normal1">
+            
+          </view>
+        </view>
+      </radio-group>
+    </view>
+  </swiper-item>
+
+  <swiper-item>
+    <view>我内容</view>
+  </swiper-item>
+
+
+  <swiper-item>
+    <view class="haibao">
+      <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" style="height:74px;">
+        <block wx:for="{{imgUrls}}">
+          <swiper-item>
+            <image src="{{item}}" class="silde-image" style="width:100%;height:74px;"></image>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+  </swiper-item>
+</swiper>
+<view>
+<include src="teacher-introduction.wxml"/>
+</view>

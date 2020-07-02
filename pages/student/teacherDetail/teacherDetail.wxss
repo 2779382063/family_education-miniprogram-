@@ -1,0 +1,84 @@
+/* pages/student/teacherDetail/teacherDetail.wxss */
+
+.line{
+  height: 3px;
+  background-color: #F2F2F2;
+  margin-top: 1px;
+}
+.item{
+  margin: 5px;
+  position: relative;
+}
+.head{
+  display: flex;
+  flex-direction: row;
+  height: 88px;
+  align-items: center;
+}
+.title{
+ /* width:60%;*/
+  margin-left:5px;
+  margin-top: 1rem;
+  overflow-wrap: break-word;
+ /*font-weight: bold; */
+}
+.title1{
+  padding: 5px;
+  color: #999999;
+  font-size: 13px;
+}
+.title2{
+  color: #999999;
+  font-size: 13px;
+  margin-left:1px;
+  overflow-wrap: break-word;
+}
+.table {
+margin-top: 1rem;
+ margin-right:3rem;
+ margin-left: 3rem;
+  
+}
+.tr {
+ display: flex;
+ width: 100%;
+ justify-content: center;
+ height: 2rem;
+ align-items: center;
+ border: 1px solid darkgray;
+}
+.td {
+ width:40%;
+ justify-content: center;
+ text-align: center;
+ font-size: 15px;
+ /* border-right: 2px solid rgba(218, 217, 217, 1);*/
+}
+.td1 {
+ width:40%;
+ justify-content: center;
+ text-align: center;
+ font-size: 15px;
+ 
+}
+.bg-w{
+ background: snow;
+}
+.bg-g{
+ background: #E6F3F9;
+}
+.add_icon{
+  position: fixed;
+  width:60px;
+  height:42px;
+  bottom: 10px;
+  right: 20px;
+}
+.add_icon1{
+  position: fixed;
+  width:60px;
+  height:42px;
+  bottom: 80px;
+  right: 20px;
+}
+

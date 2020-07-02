@@ -1,0 +1,66 @@
+<!--pages/student/teacherDetail/teacherDetail.wxml-->
+
+
+<view class='item'>
+  <view class='title'>姓名</view>
+  <view class='title1'>授课课程</view>
+</view>
+<view class='line'></view>
+
+<view class='item'>
+  <view class='title'>院校：</view>
+  <view class='title'>学历：</view>
+  <view class='title'>年级：</view>
+  <view class='title'>专业：</view>
+  <view class='title'>希望薪资：</view>
+  <view class='title'>可授课时间：</view>
+
+  <view class="table">
+ <!--view class="tr bg-w">
+ <view class="th">head1</view>
+ <view class="th">head2</view>
+ <view class="th ">head3</view>
+ </view-->
+ <block wx:for="{{listData}}" wx:key="{[code]}">
+ <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+  <view class="td">{{item.code1}}</view>
+  <view class="td">{{item.code2}}</view>
+  <view class="td1">{{item.code3}}</view>
+ </view>
+ <view class="tr bg-g" wx:else>
+  <view class="td">{{item.code1}}</view>
+  <view class="td">{{item.code2}}</view>
+  <view class="td1">{{item.code3}}</view>
+ </view>
+ </block>
+</view>
+  <!--view class='title'>
+    <text>院校：</text>
+    <text>院校：</text>
+  </view-->
+  <view class='title'>家教经验：
+    <text class="title2">
+    收到货单号喀什肯德基哈萨克
+    </text>
+  </view>
+  <view class='title'>评价：
+    <text class="title2">
+    收到货单号喀什肯德基哈萨克合法卡哈萨克接电话粉红色的心脏彩超交换机
+    </text>
+    <text class="title2">
+    收到货单号喀什肯德基哈萨克合法卡哈萨克接电话粉红色的心脏彩超交换机gfgfhfg
+    </text>
+    <text class="title2">
+    收到货单号喀什肯德基哈萨克合法卡哈萨克接电话粉红色的心脏彩超交换机gfgfhfg
+    </text>
+  </view>
+</view>\
+
+<view bindtap='adddetial'>
+   <image class="add_icon" src="/image/zhujiemian/jiaru.png"></image>
+
+</view>
+<view bindtap='adddetial1'>
+  <image class="add_icon1" src="/image/zhujiemian/shike.png"></image>
+ </view>
+

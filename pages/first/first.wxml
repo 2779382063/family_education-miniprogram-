@@ -1,0 +1,10 @@
+<!--pages/first/first.wxml-->
+
+<view class="text1-style">
+<view class= "text2-style"style="color:red"hover-class="hover-class-style1"hover-stay-time="100"bindtap='to_become'>我要请家教</view>
+ </view>
+
+<view class="text3-style">
+<view class="text4-style"style="color:blue"bindtap="to_teacher_page">我要当家教</view>
+ </view>
+
